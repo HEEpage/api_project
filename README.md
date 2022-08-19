@@ -18,5 +18,5 @@ translate_api(text, url, client_id, client_secret, source="ko", target="en")
 from my_api import kakao_api
 
 # 검색
-search_api(url, AUTHORIZATION, params)
+search_api(url, Authorization, params)
 ```
