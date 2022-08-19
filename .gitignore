@@ -1,0 +1,4 @@
+# git에 올리지 않아도 되는 파일은 여기에 지정한다.
+__pycache__/
+local.yml
+test.py
