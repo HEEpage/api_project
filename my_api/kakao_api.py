@@ -1,8 +1,8 @@
 import requests
 
-def search_api(url, AUTHORIZATION, params) :
+def search_api(url, Authorization, params) :
     headers = {
-        "Authorization" : AUTHORIZATION
+        "Authorization" : Authorization
     }
 
     res = requests.get(url, params = params, headers = headers)
